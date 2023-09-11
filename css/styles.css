@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&family=Inter:wght@200;700&family=Montserrat&display=swap");
+
+:root {
+  --font-chakra: "Chakra Petch", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #01080e;
+  color: #d7f9ff;
+}
+.cabecalho {
+  margin: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho__logo {
+  font-size: 48px;
+  font-family: var(--font-chakra);
+  font-weight: 700;
+}
+
+.cabecalho__border {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #2bdefd;
+  background-color: #01080e;
+  opacity: 0.5;
+}
+
+.cabecalho__input {
+  width: 200px;
+  height: 20px;
+  background-color: #01080e;
+  border: none;
+  color: #fff;
+}
+.cabecalho__input:focus {
+  box-shadow: 0;
+  outline: 0;
+}
+
+.cabecalho__input::placeholder {
+  color: #2bdefd;
+}
+
+.cabecalho__menu__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: var(--font-inter);
+  font-weight: 700;
+  padding: 0 10px;
+  transition: 0.5s;
+}
+.cabecalho__menu__link:hover {
+  color: #2bdefd;
+}
+
+.cabecalho__button {
+  padding: 15px 40px;
+  background-color: #2bfdbe;
+  text-decoration: none;
+  color: #01080e;
+  font-size: 14px;
+  font-family: var(--font-inter);
+  font-weight: 700;
+  transition: 0.5s;
+}
+.cabecalho__button:hover {
+  background-color: #fafafa;
+  border: 1px solid #2bfdbe;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 5%;
+}
+
+.principal__titulo {
+  font-family: var(--font-chakra);
+  font-weight: 700;
+  font-size: 110px;
+}
+
+.principal__destaque {
+  color: #2bdefd;
+  font-family: var(--font-chakra);
+  font-weight: 700;
+}
+
+.principal__texto {
+  font-family: var(--font-inter);
+  font-size: 16px;
+}
+
+.section__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 5%;
+}
+
+.section__cards__card {
+  width: 27%;
+  height: 300px;
+  background-color: #021017;
+  border: 1px solid #011b2b;
+  padding: 5% 2%;
+}
+
+.section__cards__titulo {
+  font-family: var(--font-inter);
+  font-weight: 700;
+  color: #2bdefd;
+  margin: 5% 0%;
+}
+
+.section__cards__texto {
+  font-family: var(--font-inter);
+  font-weight: 700;
+}
